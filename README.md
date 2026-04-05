@@ -12,7 +12,7 @@ Most vault templates are convoluted and difficult to manage. StudyVault keeps th
 ## Includes
 - Core structure
 - Demo note
-- Dataview query for homepage motivation
+- Dataview query on homepage
 
 ## Excludes
 - Example project and resource notes — these will be added in the future
