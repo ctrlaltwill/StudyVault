@@ -1,0 +1,76 @@
+{
+  "callouts": {
+    "custom": [
+      "welcome",
+      "areas",
+      "projects",
+      "resources",
+      "system",
+      "tasks",
+      "etymology"
+    ],
+    "settings": {
+      "welcome": [
+        {
+          "changes": {
+            "icon": "homepage",
+            "color": "236, 104, 104"
+          }
+        }
+      ],
+      "areas": [
+        {
+          "changes": {
+            "icon": "lucide-stethoscope",
+            "color": "225, 143, 93"
+          }
+        }
+      ],
+      "projects": [
+        {
+          "changes": {
+            "icon": "lucide-clipboard-list",
+            "color": "208, 191, 92"
+          }
+        }
+      ],
+      "resources": [
+        {
+          "changes": {
+            "icon": "lucide-library-big",
+            "color": "69, 198, 88"
+          }
+        }
+      ],
+      "system": [
+        {
+          "changes": {
+            "icon": "lucide-settings",
+            "color": "53, 204, 199"
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "changes": {
+            "icon": "lucide-check-circle-2",
+            "color": "98, 160, 233"
+          }
+        }
+      ],
+      "etymology": [
+        {
+          "changes": {
+            "icon": "lucide-book-open",
+            "color": "98, 160, 233"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

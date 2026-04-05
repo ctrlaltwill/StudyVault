@@ -1,0 +1,12 @@
+{
+  "promptDelete": false,
+  "focusNewTab": false,
+  "defaultViewMode": "preview",
+  "propertiesInDocument": "hidden",
+  "showLineNumber": true,
+  "attachmentFolderPath": "System/Attachments/Images",
+  "newFileLocation": "root",
+  "openBehavior": "file:Home/Home",
+  "alwaysUpdateLinks": true,
+  "livePreview": false
+}

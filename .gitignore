@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+
+# Obsidian sensitive / device-specific
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian Git plugin (contains auth/token info)
+.obsidian/plugins/obsidian-git/data.json
+
+# Cache + temp
+.obsidian/cache/
+.obsidian/logs/
+
+# Optional (machine-specific UI state)
+.obsidian/appearance.json
+

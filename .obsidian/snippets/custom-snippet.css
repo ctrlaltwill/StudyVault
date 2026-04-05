@@ -1,0 +1,146 @@
+/* ============================================================================
+ * TIDIED CSS FOR OBSIDIAN
+ * ============================================================================ */
+
+/* ----------------------------------------------------------------------------
+ * Hide Elements
+ * ---------------------------------------------------------------------------- */
+/* Hide Pin Icon */
+.file-explorer-plus.pin-icon {
+    display: none;
+}
+
+/* ----------------------------------------------------------------------------
+ * Folder Note Underlines
+ * ---------------------------------------------------------------------------- */
+/* Do not underline folder notes */
+.folder-note-underline .has-folder-note .nav-folder-title-content {
+    text-decoration-line: none;
+}
+
+/* Do not underline breadcrumbs */
+.folder-note-underline-path .has-folder-note.view-header-breadcrumb {
+    text-decoration: none;
+}
+
+/* ----------------------------------------------------------------------------
+ * Inline Title
+ * ---------------------------------------------------------------------------- */
+/* Increase margin below page title */
+.inline-title {
+    margin-bottom: 2rem;
+}
+
+/* ----------------------------------------------------------------------------
+ * Callouts
+ * ---------------------------------------------------------------------------- */
+/* Add margin below callouts */
+.callout {
+    margin-bottom: 1rem;
+}
+
+/* Wrap links in callouts and increase right padding  */
+.callout-content {
+    padding-right: 20px;
+    margin-left: 0px !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+}
+
+/* Links inside custom "welcome" callout use the callout accent color */
+.callout[data-callout="welcome"] a {
+    color: rgb(var(--callout-color));
+}
+
+/* ----------------------------------------------------------------------------
+ * Links (Global & Special)
+ * ---------------------------------------------------------------------------- */
+/* Custom link styling */
+a {
+    position: relative;
+    text-decoration: none !important;
+    padding: 0 3px;
+    margin-left: -3px;
+    margin-right: -3px;
+    display: inline-block;
+    color: var(--text-muted) !important;
+    border-radius: 3px;
+    background-color: transparent;
+    transition: all 160ms ease-in-out;
+}
+
+/* Custom footling styling */
+a.footnote-link {
+    padding: 0 1px;
+    margin-left: -1px;
+    color: var(--text-muted);
+}
+
+/* Custom callout link styling */
+.callout a {
+    color: var(--text-normal) !important;
+}
+
+/* Footnote button adjustment */
+.footnote-backref {
+    margin-left: 3px !important;
+}
+
+/* Hover link background */
+a:hover {
+    color: var(--text-normal) !important;
+    background-color: var(--background-modifier-hover);
+}
+
+/* Click effect on links */
+a:active {
+    background-color: var(--background-modifier-hover);
+    transform: translateY(1px);
+}
+
+/* ----------------------------------------------------------------------------
+ * Headings
+ * ---------------------------------------------------------------------------- */
+/* Improve h1 readability */
+h1 {
+    margin-top: 2.5rem !important;
+    margin-bottom: 1rem !important;
+}
+
+/* ----------------------------------------------------------------------------
+ * Random Suggestion (inline wrapping)
+ * ---------------------------------------------------------------------------- */
+/* Container for the random suggestion – inline but allows wrapping */
+.random-suggestion {
+    display: inline;
+    white-space: normal;
+}
+
+/* The link inside – allows wrapping and adds padding */
+.random-suggestion a {
+    display: inline;
+    padding-right: 1px;
+    padding-left: 1px;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+/* ----------------------------------------------------------------------------
+ * Flashcards (LearnKit)
+ * ---------------------------------------------------------------------------- */
+/* Custom coloured flashcards in reading- view */
+.learnkit-pretty-card.learnkit-macro-flashcards .learnkit-flashcard-question,
+.learnkit-pretty-card.learnkit-macro-flashcards .learnkit-flashcard-answer {
+    border: 0.5px solid color-mix(in oklab, var(--color-accent) 35%, transparent);
+    border-radius: var(--radius-md);
+    background-color: color-mix(in oklab, var(--color-accent) 05%, transparent);
+    padding: var(--callout-padding);
+}
+
+/* Increase space on learnt flashcards */
+.learnkit-pretty-card.learnkit-macro-flashcards .learnkit-flashcard-body {
+    line-height: 1.7;
+}

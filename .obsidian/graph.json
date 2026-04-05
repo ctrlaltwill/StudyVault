@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:Areas  ",
+      "color": {
+        "a": 1,
+        "rgb": 15964773
+      }
+    },
+    {
+      "query": "path:Projects  ",
+      "color": {
+        "a": 1,
+        "rgb": 14732643
+      }
+    },
+    {
+      "query": "path:Home",
+      "color": {
+        "a": 1,
+        "rgb": 16674671
+      }
+    },
+    {
+      "query": "path: Resources  ",
+      "color": {
+        "a": 1,
+        "rgb": 4904287
+      }
+    },
+    {
+      "query": "path:System",
+      "color": {
+        "a": 1,
+        "rgb": 3726294
+      }
+    },
+    {
+      "query": "Path:Tasks  ",
+      "color": {
+        "a": 1,
+        "rgb": 6991354
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.22764960675922008,
+  "close": false
+}
