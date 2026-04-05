@@ -2,7 +2,7 @@
 title: Home
 type: MOC
 created: 2026-04-04T14:04
-updated: 2026-04-05T18:49
+updated: 2026-04-06T07:51
 ---
 
 > [!welcome] Welcome
@@ -28,6 +28,7 @@ updated: 2026-04-05T18:49
 >>   dv.span("No notes found in Areas.");
 >> }
 >> ```
+>> *This is auto-populated from [[Areas]].*
 >
 >> [!projects] Looking for something to do?
 >> ```dataviewjs
@@ -45,6 +46,7 @@ updated: 2026-04-05T18:49
 >> }
 >> dv.el('span', `Create a note on [[${suggestion}]].`, { cls: "random-suggestion", markdown: true });
 >> ```
+>> *You can edit these in [[List of Notes]] (remove when created).*
 
 # Table of Contents
 1. **[[Areas]]** – summarised knowledge by domain.

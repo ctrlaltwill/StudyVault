@@ -2,7 +2,7 @@
 title: Projects
 type: MOC
 created: 2026-04-04T14:26
-updated: 2026-04-05T18:50
+updated: 2026-04-06T07:54
 ---
 
 > [!projects] Projects
@@ -11,7 +11,7 @@ updated: 2026-04-05T18:50
 # Table of Contents
 %% Begin Waypoint %%
 - **2026 Q1 – Rotation**
-	- [[Lecture 1]]
-	- [[Workshop 1]]
+	- [[Lecture 01 - Arthropathies]]
+	- [[Workshop 01 – Joint Aspiration]]
 
 %% End Waypoint %%

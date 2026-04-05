@@ -2,7 +2,7 @@
 title: Areas
 type: MOC
 created: 2026-04-04T14:26
-updated: 2026-04-05T18:54
+updated: 2026-04-06T07:54
 ---
 
 > [!areas] Areas
@@ -10,6 +10,6 @@ updated: 2026-04-05T18:54
 
 # Table of Contents
 %% Begin Waypoint %%
-- **[[Domain One]]**
+- **[[Medicine]]**
 
 %% End Waypoint %%
