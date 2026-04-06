@@ -1,18 +1,17 @@
-/* ============================================================================
- * TIDIED CSS FOR OBSIDIAN
- * ============================================================================ */
-
 /* ----------------------------------------------------------------------------
- * Hide Elements
+ * Hidden elements
  * ---------------------------------------------------------------------------- */
+
+
 /* Hide Pin Icon */
 .file-explorer-plus.pin-icon {
-    display: none;
+    display: none !important;
 }
 
 /* ----------------------------------------------------------------------------
  * Folder Note Underlines
  * ---------------------------------------------------------------------------- */
+
 /* Do not underline folder notes */
 .folder-note-underline .has-folder-note .nav-folder-title-content {
     text-decoration-line: none;
@@ -37,6 +36,16 @@
 /* Add margin below callouts */
 .callout {
     margin-bottom: 1rem;
+}
+
+.callout-content p br {
+  content: "";
+}
+
+.callout-content p br::after {
+  content: "";
+  display: block;
+  height: 0.5rem;
 }
 
 /* Wrap links in callouts and increase right padding  */
@@ -144,3 +153,46 @@ h1 {
 .learnkit-pretty-card.learnkit-macro-flashcards .learnkit-flashcard-body {
     line-height: 1.7;
 }
+
+/* ----------------------------------------------------------------------------
+ * Image grid + subtle image borders
+ * ---------------------------------------------------------------------------- */
+
+.img-grid .markdown-preview-section .el-p > p:has(>.image-embed):has(span:last-child),
+.img-grid .markdown-preview-section .el-p > p:has(>img):not(:has(>:not(img))) {
+  margin-top: var(--img-grid-gap, 4px);
+  margin-bottom: var(--img-grid-gap, 4px);
+}
+
+.internal-embed.image-embed {
+  display: inline-block !important;
+  position: relative;
+  overflow: hidden; /* required for inset effect */
+}
+
+.internal-embed.image-embed::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 0 0.5px rgba(0,0,0,0.2);
+  pointer-events: none;
+border-radius: 8px;
+}
+
+/* ----------------------------------------------------------------------------
+ * Subtle typography changes
+ * ---------------------------------------------------------------------------- */
+
+/* Lists */
+
+.has-list-bullet li > ul {
+  padding-top: 3.5px;
+  padding-bottom: 3.5px;
+}
+
+
+
+/* Line height */
+body {
+--line-height-normal: 1.7 !important;}
+
